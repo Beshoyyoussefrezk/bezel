@@ -1,0 +1,696 @@
+/* main color  #00c3da*/
+/* common */
+.main-color {
+    color: #00c3da;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.mrgn-section {
+    margin-top: 6rem;
+}
+
+.btn-moving {
+    background-color: #00c3da;
+    border: 1px solid transparent;
+    transition: transform .5s;
+}
+
+.btn-moving:hover {
+    transform: translateY(-2px);
+}
+
+.main-line {
+    height: 1px;
+    background-color: #dddcdc;
+    margin-top: 7rem;
+}
+
+.main-title .big-letter {
+    top: -85%;
+    left: 47%;
+    font-size: 6rem;
+    opacity: .1;
+    font-weight: 900 !important;
+}
+
+.main-title h3 {
+    font-weight: 900 !important;
+    font-size: 2.5rem;
+}
+
+.main-title p {
+    font-size: 1.3rem;
+}
+
+/* common */
+/* start header */
+.main {
+    background-color: #53535302;
+    border-bottom: 1px solid #ffffff;
+}
+
+.before-a::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 82px;
+    background-color: #ffffff;
+    top: -120%;
+    left: 0%;
+}
+
+.links-nav a {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.icons-nav a {
+    font-size: 0.9rem;
+    transition: color .5s;
+}
+
+.icons-nav a:hover {
+    color: #ffffffb2 !important;
+}
+
+
+
+/* end header */
+/* start home */
+.bgone-home {
+    background-image: url('../images/background/bg-image-28.jpg');
+    background-size: cover;
+}
+
+.bgtwo-home {
+    background-image: url('../images/background/bg-image-29.jpg');
+    background-size: cover;
+}
+
+.layout {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.carousell-content h1 {
+    font-size: 5.6rem;
+}
+
+.carousell-content h4 {
+    font-size: 1.1rem;
+}
+
+.button-carousell a {
+    font-size: 0.8rem;
+}
+
+.button-carousell .btn-2 {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    transition: background-color .5s, color .5s;
+}
+
+.button-carousell .btn-2:hover {
+    color: #000000 !important;
+    background-color: #ffffff;
+}
+
+.home-section {
+    position: relative !important;
+}
+
+.link-carousel {
+    position: absolute !important;
+    left: -2% !important;
+    width: 4% !important;
+    bottom: 20%;
+    color: #ffffff !important;
+}
+
+.link-carousel-2 {
+    top: 20% !important;
+}
+
+.link-carousel::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+@media only screen and (max-width: 991px) {
+    .before-a::before {
+        height: 0px !important;
+    }
+    .main{
+        border-bottom: 0;
+    }
+    .media-p0{
+        padding: 0 !important;
+    }
+    .carousell-content h1{
+        font-size: 5rem;
+    }
+    .media-ml{
+        margin-left:2rem !important;
+    }
+}
+@media only screen and (max-width: 768px){
+    .carousell-content h1{
+        font-size: 4rem;
+    }
+    .media-w100{
+        width: 100% !important;
+    }
+    .media-ml{
+        margin-left:2rem !important;
+    }
+}
+@media only screen and (max-width: 600px){
+    .carousell-content h1{
+        font-size: 3rem;
+    }
+    .media-ml{
+        margin-left:2rem !important;
+    }
+}
+
+
+/* end home */
+/* start about */
+.about-content {
+    width: 65%;
+}
+
+.about-content h6 {
+    font-size: 0.8rem;
+}
+
+.about-content p {
+    font-size: 1.5rem;
+}
+
+.about-content p span::after {
+    content: "|";
+    visibility: hidden;
+    opacity: 0;
+    animation: show-hidden .6s infinite;
+}
+
+@keyframes show-hidden {
+    0% {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    100% {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+.about-content p span::before {
+    content: "";
+    color: #00c3da;
+    animation: typing 12s infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "s";
+    }
+
+    2% {
+        content: "so";
+    }
+
+    4% {
+        content: "sof";
+    }
+
+    6% {
+        content: "soft";
+    }
+
+    8% {
+        content: "softw";
+    }
+
+    10% {
+        content: "softwa";
+    }
+
+    12% {
+        content: "softwar";
+    }
+
+    14% {
+        content: "software";
+    }
+
+    16% {
+        content: "softwares";
+    }
+
+    18% {
+        content: "softwares";
+    }
+
+    20% {
+        content: "softwares";
+    }
+
+    22% {
+        content: "software";
+    }
+
+    24% {
+        content: "softwar";
+    }
+
+    26% {
+        content: "softwa";
+    }
+
+    28% {
+        content: "softw";
+    }
+
+    30% {
+        content: "soft";
+    }
+
+    32% {
+        content: "sof";
+    }
+
+    34% {
+        content: "so";
+    }
+
+    36% {
+        content: "s";
+    }
+
+    38% {
+        content: "";
+    }
+
+    40% {
+        content: "";
+    }
+
+    42% {
+        content: "a";
+    }
+
+    44% {
+        content: "ap";
+    }
+
+    46% {
+        content: "app";
+    }
+
+    48% {
+        content: "apps";
+    }
+
+    50% {
+        content: "apps";
+    }
+
+    52% {
+        content: "apps";
+    }
+
+    54% {
+        content: "app";
+    }
+
+    56% {
+        content: "ap";
+    }
+
+    58% {
+        content: "a";
+    }
+
+    60% {
+        content: "";
+    }
+
+    62% {
+        content: "";
+    }
+
+    64% {
+        content: "w";
+    }
+
+    66% {
+        content: "we";
+    }
+
+    68% {
+        content: "web";
+    }
+
+    70% {
+        content: "webs";
+    }
+
+    72% {
+        content: "websi";
+    }
+
+    74% {
+        content: "websit";
+    }
+
+    76% {
+        content: "website";
+    }
+
+    78% {
+        content: "websites";
+    }
+
+    80% {
+        content: "websites";
+    }
+
+    82% {
+        content: "websites";
+    }
+
+    84% {
+        content: "website";
+    }
+
+    86% {
+        content: "websit";
+    }
+
+    88% {
+        content: "websi";
+    }
+
+    90% {
+        content: "webs";
+    }
+
+    92% {
+        content: "web";
+    }
+
+    94% {
+        content: "we";
+    }
+
+    96% {
+        content: "w";
+    }
+
+    98% {
+        content: "";
+    }
+
+    100% {
+        content: "";
+    }
+}
+
+.about-content a {
+    font-size: 0.7rem;
+    color: #131212 !important;
+    border: 1px solid #dddcdc;
+    transition: background-color .5s, color .5s;
+}
+
+.about-content a:hover {
+    background-color: #131212 !important;
+    color: #ffffff !important;
+}
+
+/* end about */
+/* start team */
+.info-team {
+    background-color: rgba(0, 195, 218, 0.9);
+    top: 10%;
+    left: 0%;
+    visibility: hidden;
+    opacity: 0;
+    transition: top .3s, visibility .3s, opacity .3s;
+}
+
+.info-team .icon-team {
+    font-size: 0.8rem;
+}
+
+.info-team .title-team h6,
+.info-team .title-team p {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.the-team:hover .info-team {
+    top: 0%;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* end team */
+/* start services */
+.bg-services {
+    background-color: #646464;
+    padding: 8rem 0;
+}
+
+.arrow i {
+    color: rgb(0, 112, 103);
+}
+
+.arrow h6 {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: #c5c3c3 !important;
+}
+
+.services-title .big-letter-services {
+    top: -45%;
+    left: -2%;
+    font-size: 6rem;
+    opacity: .1;
+    font-weight: 900 !important;
+}
+
+.services-title h3 {
+    font-weight: 900 !important;
+    font-size: 2.5rem;
+}
+
+.services-title p {
+    font-size: 1rem;
+}
+
+.list-one ul li {
+    font-size: 0.8rem;
+}
+
+/* end services */
+/* start pricing */
+.bg-pricing {
+    background-color: #e4e4e4;
+    padding: 8rem 0;
+}
+
+.line-price {
+    background-color: #dddcdc;
+    height: 1px;
+}
+
+.the-price span {
+    font-size: 0.8rem;
+}
+
+.the-price h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.the-price h2 sup {
+    font-size: 1rem;
+    vertical-align: 1rem;
+}
+
+.the-price a {
+    font-size: 0.8rem;
+}
+
+.scale-price {
+    transform: scaleY(1.1);
+}
+
+.gold-best-value {
+    top: 9%;
+    right: 15%;
+    font-size: 0.6rem;
+    background-color: #00c3da;
+}
+
+.gold-h2 {
+    color: #00c3da;
+}
+
+@media only screen and (max-width: 991px){
+    .scale-price{
+        transform: scaleY(1) !important;
+        border: #00c3da 2px solid !important;
+    }
+}
+
+/* end pricing */
+/* start works */
+.bg-works {
+    background-color: #e4e4e4;
+    padding-bottom: 8rem;
+}
+
+.over {
+    overflow: visible !important;
+}
+
+.all-works h6 {
+    font-size: 0.7rem;
+    letter-spacing: .1rem;
+    padding-bottom: 3rem;
+}
+
+.works-content {
+    padding: 0 5.5rem 4rem;
+}
+
+.works-content img {
+    width: 15%;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.indcat {
+    bottom: -25% !important;
+}
+
+.indcat li {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.arrow-mov-colr-lft,
+.arrow-mov-colr-rit {
+    display: inline-block !important;
+    color: #646464;
+    transition: transform .5s, color .5s;
+}
+
+.arrow-mov-colr-lft:hover {
+    transform: translateX(10%) !important;
+    color: #00c3da !important;
+}
+
+.arrow-mov-colr-rit:hover {
+    transform: translateX(-10%) !important;
+    color: #00c3da !important;
+}
+
+@media screen and (max-width: 992px) {
+    .works-content img {
+        width: 22%;
+        top: -18%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .works-content img {
+        width: 30%;
+        top: -16%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .works-content img {
+        width: 28%;
+        top: -10%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.works-content h4 {
+    padding-top: 5.5rem;
+}
+
+.carousel-circle {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #00c3da !important;
+    z-index: 200;
+}
+
+/* end works */
+/* start footer */
+input,
+textarea {
+    width: 100% !important;
+    border: 1px solid #c5c3c3;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+
+label {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.big-letter-get {
+    top: -70%;
+    left: -2%;
+    font-size: 6rem;
+    opacity: .1;
+    font-weight: 900 !important;
+}
+
+/* end footer */
+
+
+
+#name:focus {
+    outline: none !important;
+    border: non
+}
